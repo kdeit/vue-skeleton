@@ -1,0 +1,52 @@
+{
+  "name": "webpack-vue-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --config=webpack.prod.js",
+    "dev": "webpack-dev-server --mode development --config=webpack.dev.js",
+    "dev2": "webpack --mode development --config=webpack.prodMini.js"
+  },
+  "author": "dimakuzn@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015-webpack": "^6.4.3",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.8.3",
+    "optimize-css-assets-webpack-plugin": "^4.0.1",
+    "prettier": "^1.12.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "svg-inline-loader": "^0.8.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^14.0.0",
+    "vue-template-compiler": "^2.5.18",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-config": "^7.5.0",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "es6-promise": "^4.2.4",
+    "velocity-animate": "^1.5.1",
+    "vue": "^2.5.18",
+    "vuex": "^3.1.1"
+  }
+}

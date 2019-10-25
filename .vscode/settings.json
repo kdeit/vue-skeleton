@@ -1,0 +1,7 @@
+{
+    "vue-html": "html", 
+    "javascript": "javascriptreact",
+    "php": "html",
+    "emmet.optimizeStylesheetParsing": false,
+    "emmet.triggerExpansionOnTab": true
+}
